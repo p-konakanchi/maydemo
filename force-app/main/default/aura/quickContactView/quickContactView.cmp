@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <lightning:card title="Quick view" iconName="standard:contact" >
+        
+        <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Contact">
+            <p class="slds-p-horizontal_small">
+                <lightning:outputField fieldName="FirstName" />
+                <lightning:outputField fieldName="LastName" />
+                <lightning:outputField fieldName="Title" />
+                <lightning:outputField fieldName="Email" />
+                
+            </p>
+        </lightning:recordViewForm>
+        
+    </lightning:card>
+    
+</aura:component>

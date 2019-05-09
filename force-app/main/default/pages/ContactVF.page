@@ -1,0 +1,7 @@
+<apex:page standardController="Contact">
+
+Hello {!Contact.FirstName} {!Contact.LastName}!
+<br/>
+This is a test VisualForce Page
+
+</apex:page>
